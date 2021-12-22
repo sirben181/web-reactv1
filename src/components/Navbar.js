@@ -14,25 +14,25 @@ const Navbar = () => {
                 <div className="navlinks">
                     <ul>
                 <li > 
-                   <Link to='#'>
+                   <Link to='/'>
                         <FaIcons.FaHome className="navbar_icon"/>
                        <span>Home</span>
                     </Link>   
                 </li>
                <li >
-                   <Link to="#">
+                   <Link to="/services">
                        <RiIcons.RiServiceLine className="navbar_icon"/>
                        <span>Services</span>
                    </Link>
                 </li>
                 <li>
-                   <Link to='#'>
+                   <Link to='/blog'>
                       <FaIcons.FaBlog className="navbar_icon"/>
                    <span>Blog</span>
                    </Link>
                    </li>
                <li>
-                   <Link to=''>
+                   <Link to='/about'>
                        <FcIcons.FcAbout className="navbar_icon" />
                    <span>About</span>  
                     </Link> 

@@ -1,21 +1,28 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import {Route,Routes} from 'react-router-dom'
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 import Service from './pages/Service'
 import Blog from './pages/Blog'
 import About from './pages/About'
+import Home from './pages/Home'
+
+
 const App = () => {
     return (
-        <div>
+        
+            <Router >
             <Navbar />
             <Routes >
-                <Route to="/services" element={<Service />}/>
-                <Route to="/blog" element={<Blog />}/>
-                <Route to="/about" element={<About />}/>
+                <Route path='/' element={<Home />}/>
+                <Route path="/services" element={<Service />}/>
+                <Route path="/blog" element={<Blog />}/>
+                <Route path="/about" element={<About />}/>
             </Routes>
 
+            </Router>
 
-        </div>
+         
+        
     )
 }
 
