@@ -39,3 +39,12 @@ padding-bottom:35px;}
     border-bottom:7px solid #fff;
 
 }
+@media only screen and (max-width:968px){
+
+}
+@media only screen and (max-width:768px){
+.navlinks{display:none;}
+}
+@media only screen and (max-width:400px){
+    .navlinks{display:none;}
+}

@@ -27,7 +27,7 @@ padding:0;}
     flex-direction:column;
     position: absolute;
     top:200px;
-    left:300px;
+    left:250px;
     color:#fff;
     
 }
@@ -53,6 +53,16 @@ padding:0;}
     background:#fff;
     color:rgb(67, 102, 173);
 }
+.wordpress_excerpt_home{
+    display:flex;
+    flex-direction:column;
+    margin-right:150px;
+    margin-left:150px;
+    padding:50px;
+    background:#dedede;
+}
+
+/* media queries */
 @media only screen and (max-width:968px){
    .landing_message{
     text-align:center;
@@ -65,12 +75,12 @@ padding:0;}
 padding:5px 8px;
 width:auto;}
 .landing_message h2{
-    font-size:3.5vh;
+    font-size:3.5vw;
     word-wrap:break-word;
 }
 }
 @media only screen and (max-width:400px){
-    .landing_message{top:0vh;}
+    .landing_message{top:0vw;}
     .landing_message h2{
         font-size:2.5vh;
         margin-left:0;
