@@ -49,18 +49,54 @@ padding:0;}
 
 .btn_primary a{text-decoration:none;
 }
-.landing_message button :hover{
+.landing_message button:hover{
     background:#fff;
     color:rgb(67, 102, 173);
 }
 .wordpress_excerpt_home{
     display:flex;
     flex-direction:column;
-    margin-right:150px;
-    margin-left:150px;
-    padding:50px;
-    background:#dedede;
+    justify-content: center;
+   align-items:center;
+    /* margin-right:150px;
+    margin-left:250px; */
+    margin:20px;
+    height:auto;
+    
 }
+.wordpress_excerpt_wrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align:center;
+    width:800px; 
+    background:#dedede;
+    padding:50px;
+    border-radius: 10px;
+    box-shadow:2px 5px 4px 3px #ddd;
+    margin-bottom:30px;
+}
+.wordpress_excerpt_wrapper h2{
+    margin-bottom:20px;
+    border-bottom:2px solid rgb(67, 102, 173);
+
+}
+.wordpress_excerpt_wrapper p{font-size:20px;}
+.wordpress_excerpt_wrapper a{
+text-decoration:none;
+}
+.wordpress_excerpt_wrapper button{
+    font-size:20px;
+    border:none;
+    outline:none;
+    background:rgb(67, 102, 173);
+    color:#fff;
+    padding:8px 10px;
+    border-radius:5px;
+    margin-top:20px;
+}
+.wordpress_excerpt_wrapper button:hover{background:#fff;
+color:rgb(67, 102, 173);}
 
 /* media queries */
 @media only screen and (max-width:968px){
