@@ -97,6 +97,39 @@ text-decoration:none;
 }
 .wordpress_excerpt_wrapper button:hover{background:#fff;
 color:rgb(67, 102, 173);}
+.excerpt_wrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align:center;
+    width:800px; 
+    background:#dedede;
+    padding:50px;
+    border-radius: 10px;
+    box-shadow:2px 5px 4px 3px #ddd;
+    margin-bottom:30px;
+}
+.excerpt_wrapper h2{
+    margin-bottom:20px;
+    border-bottom:2px solid rgb(67, 102, 173);
+
+}
+.excerpt_wrapper p{font-size:20px;}
+.excerpt_wrapper a{
+text-decoration:none;
+}
+.excerpt_wrapper button{
+    font-size:20px;
+    border:none;
+    outline:none;
+    background:rgb(67, 102, 173);
+    color:#fff;
+    padding:8px 10px;
+    border-radius:5px;
+    margin-top:20px;
+}
+.excerpt_wrapper button:hover{background:#fff;
+color:rgb(67, 102, 173);}
 
 /* media queries */
 @media only screen and (max-width:968px){
