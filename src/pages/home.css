@@ -147,6 +147,24 @@ width:auto;}
     font-size:3.5vw;
     word-wrap:break-word;
 }
+.wordpress_excerpt_wrapper{
+    width:auto;
+}
+.wordpress_excerpt_wrapper button{
+    font-size:medium;
+    padding:5px 8px;
+    width:auto;  
+}
+.excerpt_wrapper{
+    width:auto;
+}
+.excerpt_wrapper button{
+    font-size:medium;
+padding:5px 8px;
+width:auto;
+}
+.excerpt_wrapper p{
+    word-wrap:break-word;}
 }
 @media only screen and (max-width:400px){
     .landing_message{top:0vw;}
@@ -158,6 +176,10 @@ width:auto;}
         padding:0;
     }
     .landing_message button{
+        font-size:2.0vh;
+        margin-top:0px;
+    } 
+    .excerpt_wrapper button{
         font-size:2.0vh;
         margin-top:0px;
     }
