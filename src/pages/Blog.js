@@ -1,8 +1,9 @@
 import React from 'react'
+import './blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className="blog_container">
              <h1>Hell here is the blog</h1>
              <p>I wanted to be a teacher on YouTube teaching how to code, and I got the screen play recorder obs and I have net and started doing it but the machine am using can’t handle all this at the same time. So I have to come up with a different option and different things to do. At least for now it seems impossible because I need major machine upgrade.
 What’s the way forward then? The way forward has to be done just right now. I have to decide it right now. What is the first and my main priority? My only priority is that I want to earn and I want to make a living as a software developer. Jobs seems like it will take hell long simply because most seems like they are taking people with at least experience of at least 3yrs.
