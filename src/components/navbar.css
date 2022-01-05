@@ -14,8 +14,11 @@ padding:0;}
     width:100%;
     height:100%;
 }
-.show-active{
+.active{
     border-bottom:7px solid #fff;
+}
+.inactive{
+    border-bottom:none;
 }
 .navlinks{
     display:flex;

@@ -6,9 +6,10 @@ import *as FaIcons from 'react-icons/fa'
 import *as RiIcons from 'react-icons/ri'    
 import *as FcIcons from 'react-icons/fc'    
 const Navbar = () => {
- const[active,setActive]=useState(false)
+ const[active,setActive]=useState(true)
     const handleActive=()=>{
       setActive(!active)
+  
     }
     return (
         <>
@@ -16,8 +17,8 @@ const Navbar = () => {
             <Sidebar />
             <div className="navbar_wrapper">
                 <div className="navlinks">
-                    <ul  onClick={handleActive} >
-                       <li>
+                    <ul  onClick={handleActive}>
+                       <li className={`inactive ? 'inactive' :'active ' `}>
                            <Link to='/'>
                              <FaIcons.FaHome className="navbar_icon"/>
                              <span>Home</span>

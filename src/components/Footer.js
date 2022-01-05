@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='footer-container'>
             <div className='footer_wrapper'>
-                <div className=' services_offered'>
+                <div className='services_offered'>
                    
                      <p>
                          <Link to="">
@@ -17,17 +17,19 @@ const Footer = () => {
                          <Link to=''>
                          wordpress
                         </Link>
-                     </p><p>
+                     </p>
+                     <p>
                          <Link to=''>
                             landing page
                         </Link>
-                     </p><p>
+                     </p>
+                     <p>
                          <Link to=''>
                          Webdesign
                         </Link>
                      </p>
                    
-
+ this is the best react youtube channnel lets get this good , hello there welcome to my youtube channel lets learn the coding journey and lets master the skill
                 </div>
                 <div className="about us">
                     
