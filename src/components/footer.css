@@ -28,14 +28,17 @@
     align-content:center;
     text-align:center;
     }
-    .form{display:flex;
+    /* .form{display:flex;
         flex-direction:column;
       
-    }
+    } */
     .form input{
         width:350px;
         height:35px;
         margin-bottom:20px;
+        margin-right:20px;
+        border:none;
+        outline:none;
     }
     .form button{
         padding:10px 12px;
