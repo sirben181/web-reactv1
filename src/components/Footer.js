@@ -10,6 +10,12 @@ const Footer = () => {
                <h3>
                    you can subscribe to our newsletter
                </h3>
+               <div className="input_form">
+                   <form className="form">
+                       <input />
+                       <button className="btn_secondary">subscribe</button>
+                   </form>
+               </div>
                <div className="footer_items_wrapper">
                    <div className="footer_item about_footer">
                         <h4><Link to="/about">About us</Link></h4>
@@ -28,16 +34,24 @@ const Footer = () => {
                     </div>
                     <div className='social_links'>
                         <div className="facebook">
-                           <FaIcons.FaFacebook />
+                            <a target='_blank' href="https://www.facebook.com/benson.kamau.3766">
+                                <FaIcons.FaFacebook />
+                            </a>
                         </div>
                         <div className="twitter">
-                           <FaIcons.FaTwitter />  
+                            <a target='_blank' href="https://twitter.com/benson_kamaa">
+                               <FaIcons.FaTwitter />  
+                            </a>
                         </div>
                         <div className='github'>
-                          <FaIcons.FaGithub />
+                            <a target='_blank' href="https://github.com/sirben181">
+                               <FaIcons.FaGithub />
+                            </a>
                         </div>
                         <div className="youtube">
+                           <a target="_blank" href="https://www.youtube.com">
                            <FaIcons.FaYoutube />
+                           </a>
                         </div>
                     </div>
                </div>

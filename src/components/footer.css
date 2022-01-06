@@ -22,8 +22,26 @@
     display:flex;
     justify-content: center;
     
-    
 }
+.input_form{display:flex;
+    flex-direction:column;
+    align-content:center;
+    text-align:center;
+    }
+    .form{display:flex;
+        flex-direction:column;
+      
+    }
+    .form input{
+        width:350px;
+        height:35px;
+        margin-bottom:20px;
+    }
+    .form button{
+        padding:10px 12px;
+        width:100px;
+    }
+
 .footer_item{
     display:flex;
     flex-direction:column;
@@ -37,9 +55,36 @@
 }
 .footer_item h4 a:hover{ color:coral;}
 .social_links{
-   font-size:25px;}
-   .facebook{}
-   .twitter{
+    margin-top:20px;
+    padding-top:20px;
+   font-size:25px;
+display:flex;
+}
+   .facebook{
+       margin-right:20px;
 
    }
-   
+   .facebook a{
+    color:rgba(71, 71, 172, 0.877);
+   }
+   .facebook a:hover{color:#fff;
+/* background:rgba(31, 31, 216, 0.877); */
+/* overflow:hidden; */
+}
+   .twitter{
+           margin-right:20px;
+   }
+   .twitter a{color:rgb(9, 9, 219);}
+   .twitter a:hover{
+       color:#fff;
+   }
+   .github{margin-right:20px;}
+   .github a{color:rgb(99, 97, 97);}
+   .github a:hover{color:#fff;}
+   .youtube{
+       margin-right:20px;
+   }
+   .youtube a{color:rgb(211, 66, 66);}
+   .youtube a:hover{
+       color:rgb(146, 37, 37);
+   }
