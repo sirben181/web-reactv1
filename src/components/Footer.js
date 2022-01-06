@@ -10,6 +10,25 @@ const Footer = () => {
                <h3>
                    you can subscribe to our newsletter
                </h3>
+               <div className="footer_items_wrapper">
+                   <div className="footer_item">
+                        <h4>About us</h4>
+                        <h4>contact us</h4>
+                        <h4>About us</h4>
+                    </div>
+                    <div className="footer_item">
+                        <h4>About us</h4>
+                        <h4>About us</h4>
+                        <h4>About us</h4>
+                    </div> 
+                    <div className="footer_item">
+                        <h4>About us</h4>
+                        <h4>About us</h4>
+                        <h4>About us</h4>
+                    </div>
+                   
+               </div>
+               <span>Bensdesign&copy;2022copyright</span>
             </div>
             
         </div>
