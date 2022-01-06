@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import home from '.././components/images/home.jpg'
 import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 const Home = () => {
     return (
         <div className='home_container'>
@@ -115,6 +116,7 @@ const Home = () => {
                 </div>
 
             </div>
+         
            
         </div>
     )

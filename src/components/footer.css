@@ -5,8 +5,9 @@
 }
 .footer_container{
     width:100%;
-    min-height:70vh;
-
+    height:50vh;  
+   
+   
    
 }
 .footer_wrapper{
@@ -15,4 +16,6 @@
     background:rgb(12,13,24);
     color:#fff;
     padding:20px;
+  
+
 }

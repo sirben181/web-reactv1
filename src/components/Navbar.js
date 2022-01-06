@@ -17,9 +17,9 @@ const Navbar = () => {
             <Sidebar />
             <div className="navbar_wrapper">
                 <div className="navlinks">
-                    <ul  onClick={handleActive}>
-                       <li className={`inactive ? 'inactive' :'active ' `}>
-                           <Link to='/'>
+                    <ul>
+                       <li>
+                           <Link  to='/'>
                              <FaIcons.FaHome className="navbar_icon"/>
                              <span>Home</span>
                            </Link>
