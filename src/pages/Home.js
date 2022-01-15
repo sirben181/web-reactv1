@@ -2,7 +2,6 @@ import React from 'react'
 import './home.css'
 import home from '.././components/images/home.jpg'
 import { Link } from 'react-router-dom'
-import Footer from '../components/Footer'
 const Home = () => {
     return (
         <div className='home_container'>
@@ -45,7 +44,8 @@ const Home = () => {
                     <Link to='/services'>
                             <button className='btn_primary'>Read more</button>
                    </Link>
-                </div><div className='excerpt_wrapper'>
+                </div>
+                 <div className='excerpt_wrapper'>
                     <h2>webmaintenance</h2>
                     <p> Join us and we are going to create a wordpress them for you,depending on your choices.
                     if you dont have those choices we can help you decide and make  your dream come true.

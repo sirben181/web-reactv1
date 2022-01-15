@@ -7,7 +7,14 @@ import Service from './pages/Service'
 import Blog from './pages/Blog'
 import About from './pages/About'
 import Home from './pages/Home'
-
+// state of posts in each page-- 
+// state of post comments
+// state of the excerpts for home page
+// where will i grab the state of these posts and comments
+// service-post reducer
+//  blog-post-reducer
+// about-post-reducer
+// before that we need somewhere for onchange  backend for login
 
 
 const App = () => {
