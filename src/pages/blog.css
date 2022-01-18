@@ -3,13 +3,21 @@
     padding:50px;
 margin-left:100px;
 margin-right:100px;
-background:#ddd;
+min-height:100vh;
+height:auto;
 /* width:100%; */
 height:auto;}
-.blog_container h1{ 
+.blog_wrapper{
+background:#ddd;
+margin-right:50px;
+margin-left:50px;
+ 
+}
+
+.blog_wrapper h1{ 
     text-align:center;
 }
-.blog_container p{ 
+.blog_wrapper p{ 
     font-size:20px;
     padding:15px;
 }
