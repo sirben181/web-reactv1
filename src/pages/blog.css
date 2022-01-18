@@ -13,20 +13,22 @@ margin-right:50px;
 padding-right:50px;
 padding-left:50px;
 margin-left:50px; 
+background:#ddd;
+border-radius:20px;
+padding-bottom:30px;
+
 }
 
 .blog_wrapper h1{ 
     text-align:center;
 }
-.blog_wrapper p{ 
+.blog_content p{ 
     font-size:22px;
-    margin:20px;
+    margin:15px;
     padding:15px;
 }
 .blog_content{
     margin-bottom:30px;
-    background:#ddd;
-    border-radius:10px;
     /* font-size:30px; */
 }
 .page_number{ border:2px rgb(18, 49, 185) solid;
@@ -38,3 +40,18 @@ word-spacing: normal;}
     color:#fff;
     background:rgb(9, 7, 150);
 }
+.post_footer{display:flex;
+    justify-content:space-between;
+}
+.post_feedback{
+    display:flex;
+    justify-content:space-between;
+
+}
+.post_feedback div{margin:20px;}
+.post_like span{font-size:30px;
+}
+.post_like span:hover{color:#fff;}
+.post_comment span{font-size:30px;
+}
+.post_comment span:hover{background:rgb(148, 148, 151);}
