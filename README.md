@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+## this is the front end of my blog/website and the beackend is here too
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
