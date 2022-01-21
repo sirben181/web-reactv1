@@ -1,0 +1,22 @@
+*{box-sizing:border-box;
+margin:0;
+}
+.about_container{
+    min-height:100vh;
+    height:auto;
+    margin-right:100px;
+    margin-left:100px;
+    margin-top:20px;
+}
+.about_wrapper{
+    background:#ddd;
+   border-radius:20px;
+   padding:30px;
+   text-align:center;
+}
+.about_wrapper h2{
+    text-align:center;
+    padding:20px;
+}
+.about_wrapper p{ padding:15px;
+font-size:20px;}

@@ -1,0 +1,21 @@
+*{box-sizing:border-box;
+margin:0;}
+.service_container{
+ margin:20px; 
+ min-height:70vh;
+ height:auto;}
+ .servces_wrapper{width:100%;}
+ .services_items{display:flex;
+flex-direction: column;
+margin-right:100px;
+margin-left:100px;}
+.service_item{ background:#ddd;
+margin-top:20px;
+margin-right:100px;
+margin-left:100px;
+padding:30px;
+border-radius:20px;
+font-size:20px;
+}
+.service_item h3{ text-align:center;}
+

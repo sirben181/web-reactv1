@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
+import React, { createElement, useState } from 'react'
 import './blog.css'
 import * as BiIcons from 'react-icons/bi'
 import * as FcIcons from 'react-icons/fc'
 
 const Blog = () => {
-    const [likes, setLikes] = useState(0)
-    const handleLikes=()=>{
-         let like=likes+1
-         setLikes(like)
+    const [likes, setLikes] = useState(null)
+    // const [comments, setComments] = useState(null)
+    const handleLikes=(e)=>{
+         if(e){setLikes(likes+1)
+        }else{return}
          
     }
+    
     return (
         <div className="blog_container">
             <div className="blog_wrapper">
