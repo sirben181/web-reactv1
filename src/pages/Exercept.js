@@ -1,6 +1,7 @@
 import React, {useEffect,useState} from 'react'
 
 import axios from 'axios'
+import { Link } from 'react-router-dom';
 
 const Exercept = () => {
     const [posts, setPosts] = useState([]);
@@ -14,7 +15,16 @@ const Exercept = () => {
       getPosts();
     },[]);
   return (
-      <div></div>
+      <div>{posts.map((post)=>{return <div className="excerpt_wrapper"
+      key={post.id}>
+          <h2>{post.title}</h2>
+          <p>{post.body}</p>
+          <span>{post.author}{post.date} </span>
+          <Link to=''>
+              <button className="primary_btn">Learn More</button>
+          </Link>
+
+      </div>})}</div>
   )
 };
 

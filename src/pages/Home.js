@@ -1,7 +1,8 @@
-import React, {useEffect,useState} from 'react'
+import React from 'react'
 import './home.css'
 import home from '.././components/images/home.jpg'
 import { Link } from 'react-router-dom'
+import Exercept from './Exercept'
 const Home = () => {
     
     return (
@@ -32,11 +33,12 @@ const Home = () => {
                     <Link to='/services'>
                             <button className='btn_primary'>Read more</button>
                    </Link>
-                </div> 
-           
+                </div>  
+                <Exercept />
+          
                
-                 <div className='excerpt_wrapper'>
-                    <h2>webmaintenance</h2>
+                 {/* <div className='excerpt_wrapper'> */}
+                  {/*  <h2>webmaintenance</h2>
                     <p> Join us and we are going to create a wordpress them for you,depending on your choices.
                     if you dont have those choices we can help you decide and make  your dream come true.
                     We are the best wordpress developers around.
@@ -91,9 +93,9 @@ const Home = () => {
                     <Link to='/blog'>
                             <button className='btn_primary'>Read more</button>
                    </Link>
-                </div> 
-                <Exercept />
-                <div className='excerpt_wrapper'>
+                </div>  */}
+               
+                {/* <div className='excerpt_wrapper'>
                     <h3>You can get alot of stories in my blog</h3>
                     <p> 
                     </p>
@@ -115,7 +117,7 @@ const Home = () => {
                     <Link to='/about'>
                     <button >Click here</button>
                    </Link>
-                </div>
+                </div> */}
 
             </div>
          
