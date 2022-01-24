@@ -24,7 +24,8 @@ const Exercept = () => {
               <button className="primary_btn">Learn More</button>
           </Link>
 
-      </div>})}</div>
+      </div>})}
+      </div>
   )
 };
 
