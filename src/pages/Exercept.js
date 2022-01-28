@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from 'react'
-
+import './home.css'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ const Exercept = () => {
       getPosts();
     },[]);
   return (
-      <div>{posts.map((post)=>{return <div className="excerpt_wrapper"
+      <div classNam="home_container">{posts.map((post)=>{return <div className="excerpt_wrapper"
       key={post.id}>
           <h2>{post.title}</h2>
           <p>{post.body}</p>
