@@ -9,16 +9,17 @@ const Exercept = () => {
         const res= await axios.get('http://localhost:5000/posts')
         const data= await res.data
         setPosts(data)
+        console.log(data[0]._id)
         console.log(posts)
     }
     useEffect(()=>{
       getPosts();
     },[]);
   return (
-      <div classNam="home_container">{posts.map((post)=>{return <div className="excerpt_wrapper"
-      key={post.id}>
+      <div className="home_container">{posts.map((post)=>{return <div className="excerpt_wrapper"
+      key={post._id}>
           <h2>{post.title}</h2>
-          <p>{post.body}</p>
+          <p>{post.description}</p>
           <span>{post.author}{post.date} </span>
           <Link to=''>
               <button className="primary_btn">Learn More</button>
