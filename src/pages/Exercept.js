@@ -9,9 +9,7 @@ const Exercept = () => {
         const res= await axios.get('http://localhost:5000/posts')
         const data= await res.data
         setPosts(data)
-        console.log(data[0]._id)
-        console.log(posts)
-    }
+            }
     useEffect(()=>{
       getPosts();
     },[]);
@@ -20,7 +18,7 @@ const Exercept = () => {
       key={post._id}>
           <h2>{post.title}</h2>
           <p>{post.description}</p>
-          <span>{post.author}{post.date} </span>
+          <span>{post.author} {post.createdAt} </span>
           <Link to=''>
               <button className="primary_btn">Learn More</button>
           </Link>

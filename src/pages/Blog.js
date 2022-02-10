@@ -60,8 +60,12 @@ const Blog = () => {
                         </div>
                     </div>
              </div>
+            
         </div>
-          
+        <div className='footer-btns'> 
+            <button className="btn btn-previous">previous</button>
+            <button className="btn btn-next">Next</button>
+        </div> 
     </div>
     )
 }
