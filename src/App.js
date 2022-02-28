@@ -7,6 +7,7 @@ import Service from './pages/Service'
 import Blog from './pages/Blog'
 import About from './pages/About'
 import Home from './pages/Home'
+import adControl from './adControl'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                  <Navbar />
                  <Routes >
                     <Route path='/' element={<Home />}/>
+                    <Route path='/adcontrol' element={<adControl.js/>}/>
                     <Route path="/services" element={<Service />}/>
                     <Route path="/blog" element={<Blog />}/>
                     <Route path="/about" element={<About />}/>

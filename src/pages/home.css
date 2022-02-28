@@ -7,6 +7,7 @@ padding:0;}
     min-height:90vh;
     height:auto;
     margin:20px 50px 20px 50px;
+    margin-top:7rem;
 
     position:relative;
 }
@@ -14,6 +15,7 @@ padding:0;}
     width:100%;
     background:#dedede;
     /* padding-bottom:20px; */
+    
 }
 .landing_page img{
     min-height:20vh;

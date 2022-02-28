@@ -18,6 +18,7 @@
     justify-content: center;
     text-align:center;
 }
+
 .footer_items_wrapper{
     display:flex;
     justify-content: center;
@@ -90,4 +91,28 @@ display:flex;
    .youtube a{color:rgb(211, 66, 66);}
    .youtube a:hover{
        color:rgb(146, 37, 37);
+   }
+   @media only screen and (max-width: 760px) {
+     .footer_container{
+         display: flex;
+         flex-direction:column;
+         margin:20px;
+        align-content: auto;
+     }   
+    .footer_wrapper{
+           width:90%;
+           height:auto;
+           text-align:auto;
+       }
+       .footer_items_wrapper{
+           display:flex;
+           flex-direction:column;}
+           .form input{
+               width:70vw;
+           }
+    .social_links{
+        margin:20px;
+        align-content:auto;
+    }
+       
    }
