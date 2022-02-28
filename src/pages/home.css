@@ -6,9 +6,8 @@ padding:0;}
     flex-direction:column;
     min-height:90vh;
     height:auto;
-    margin:20px 50px 20px 50px;
-    margin-top:7rem;
-
+    margin:0px 50px 20px 50px;
+    margin-top:6rem;
     position:relative;
 }
 .landing_page{ display:flex;
@@ -104,12 +103,13 @@ color:rgb(67, 102, 173);}
     justify-content: center;
     flex-direction:column;
     text-align:center;
-    width:800px; 
+    width:80vw; 
     background:#dedede;
     padding:50px;
     border-radius: 10px;
     box-shadow:2px 5px 4px 3px #ddd;
     margin-bottom:30px;
+    height:auto;
 }
 .excerpt_wrapper h2{
     margin-bottom:20px;
@@ -128,7 +128,7 @@ text-decoration:none;
     color:#fff;
     padding:8px 10px;
     border-radius:5px;
-    margin-top:20px;
+    /* margin-top:20px; */
 }
 .excerpt_wrapper button:hover{background:#fff;
 color:rgb(67, 102, 173);}
