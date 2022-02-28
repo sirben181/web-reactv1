@@ -3,7 +3,8 @@ margin:0;}
 .service_container{
  margin:20px; 
  min-height:70vh;
- height:auto;}
+ height:auto;
+margin-top:6rem;}
  .servces_wrapper{width:100%;}
  .services_items{display:flex;
 flex-direction: column;
