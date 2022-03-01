@@ -6,26 +6,58 @@ margin:0;
     height:auto;
     margin-right:100px;
     margin-left:100px;
-    margin-top:20px;
-    margin-top:6rem;
+    margin-top:5rem;
 }
 .about_wrapper{
-    background:#f2f4f6;
+    /* background:#f2f4f6; */
     display:flex;
-    justify-content:center;
     flex-direction: column;
-   border-radius:20px;
-   padding:30px;
-   text-align:center;
+    justify-content:center;
+    padding:30px;
+    /* align-content:center; */
+  align-items: center;
 }
-.profilePic{}
-
-.about_container h2{
+.about {
     text-align:center;
     padding:20px;
 }
 .about_wrapper p{ padding:10px;
-font-size:20px;}
+                  font-size:20px;}
+.headerProf{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding-bottom:30px;
+    width:100%;
+    background: #313030;
+    height:auto;
+}
+.profilePic{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    margin:20px;
+}
+.personal_title{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    color:#fff;
+    margin-bottom:20px;
+}
+.sociallinks{ padding:20px;}
+.sociallinks a{
+    /* margin:20px; */
+    padding:15px;
+    color:#fff;
+}
+.sociallinks a:hover{
+    color:blue;
+}
+
 .skill_container{
     display:flex;
 
