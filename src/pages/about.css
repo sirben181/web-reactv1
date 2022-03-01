@@ -10,14 +10,23 @@ margin:0;
     margin-top:6rem;
 }
 .about_wrapper{
-    background:#ddd;
+    background:#f2f4f6;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
    border-radius:20px;
    padding:30px;
    text-align:center;
 }
-.about_wrapper h2{
+.profilePic{}
+
+.about_container h2{
     text-align:center;
     padding:20px;
 }
-.about_wrapper p{ padding:15px;
+.about_wrapper p{ padding:10px;
 font-size:20px;}
+.skill_container{
+    display:flex;
+
+}
