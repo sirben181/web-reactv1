@@ -12,7 +12,8 @@ const About = () => {
             <div className="about_wrapper">
                    <div className='headerProf'>
                          <div className='profilePic'>
-                            <Avatar sx={{height:250, width:250}} src={profile}/>
+                            <Avatar  src={profile} className='profilePic_icon' sx={{height:250,
+                            width:250}}/>
                          </div>
                           <div className='personal_title'>
                                 <section>
@@ -68,8 +69,46 @@ const About = () => {
                             bl  og and all other types of websites */}
                      </div>
                      <div className='portfolio_container'>
-                         <h2> PROJECTS</h2>
-                         
+                         <h2 className="projects"> PROJECTS</h2>
+                         <div className='portfolio_wrapper'>
+                         <div className='project_card'>
+                             <img src='' alt="facebook project"/>
+                             <h3>Facebook clone</h3>
+                             <p>This is my best version of facebook clone app whereby you can add posts and save them to the database.
+                                 The app also has a login page that is shared around different components.
+                                 i have used ReactJs, css, and Firebase database.
+                             </p>
+                             <a href='' target='_blank'rel="noreferrer"> github repository</a>
+                         </div>
+                         <div className='project_card'>
+                             <img src='' alt="facebook project"/>
+                             <h3>Facebook clone</h3>
+                             <p>This is my best version of facebook clone app whereby you can add posts and save them to the database.
+                                 The app also has a login page that is shared around different components.
+                                 i have used ReactJs, css, and Firebase database.
+                             </p>
+                             <a href='' target='_blank'rel="noreferrer"> github repository</a>
+                         </div>
+                         <div className='project_card'>
+                             <img src='' alt="facebook project"/>
+                             <h3>Facebook clone</h3>
+                             <p>This is my best version of facebook clone app whereby you can add posts and save them to the database.
+                                 The app also has a login page that is shared around different components.
+                                 i have used ReactJs, css, and Firebase database.
+                             </p>
+                             <a href='' target='_blank'rel="noreferrer"> github repository</a>
+                         </div>
+                         <div className='project_card'>
+                             <img src='' alt="facebook project"/>
+                             <h3>Facebook clone</h3>
+                             <p>This is my best version of facebook clone app whereby you can add posts and save them to the database.
+                                 The app also has a login page that is shared around different components.
+                                 i have used ReactJs, css, and Firebase database.
+                             </p>
+                             <a href='' target='_blank'rel="noreferrer"> github repository</a>
+                         </div>
+                       </div>
+                       
                      </div>
               </div>
       </div>

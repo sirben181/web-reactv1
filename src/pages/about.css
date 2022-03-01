@@ -40,6 +40,11 @@ margin:0;
     justify-content: center;
     align-content:center;
     margin:20px;
+   
+}
+.profilePic_icon{
+    height:250px;
+    width:250px;
 }
 .personal_title{
     display:flex;
@@ -70,4 +75,63 @@ margin:0;
 }
 .skill_wrapper{
     width:30%;
+}
+.portfolio_container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    margin-top:20px;
+}
+.portfolio_wrapper{
+    display:flex;
+    
+}
+.projects{
+    text-align:center;
+}
+.project_card{
+    display:flex;
+    flex-direction:column;
+    width:18rem;
+    background:#dad6d6;
+    height:auto;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+
+}
+.project_card a{
+    color: blue;
+    text-decoration:none;
+    border-top:2px solid #000;
+    padding:5px;
+    font-size:1.5rem;
+}
+@media screen and  (max-width:760px){
+.headerProf{
+width:60rem;
+padding-bottom:10px;
+}
+.profilePic{height:30px;
+width:30px;
+margin:10px;
+align-items:center;}
+.personal_title{
+    align-items:center;
+}
+.sociallinks{
+    padding:1rem;
+}
+.sociallinks a{ padding:5px;}
+.portfolio_container{
+    margin-top:10px;
+}
+.portfolio_wrapper{
+    display:flex;
+    flex-direction:column;
+}
+.project_card{
+    width:70vw;
+}
 }
