@@ -9,7 +9,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 const About = () => {
     return (
         <div className="about_container">
-            <h2 className='about'>About</h2>
             <div className="about_wrapper">
                    <div className='headerProf'>
                          <div className='profilePic'>
@@ -35,7 +34,8 @@ const About = () => {
                                     About Me:
                                 </h2> 
                                 <p>I am a self-taught developer who specializes in both javascript and reactjs.
-                                    I love learning new langauages and technologies, solving  problems and providing   quality work.
+                                    I love learning new langauages and technologies,
+                                    solving  problems and providing   quality work.
                                     Follow my  coding journey <a href='/blog'>Here</a>
                                 {/*I am person who has a scientific background but i have no computer based  background.
                                     But this  didnt hinder me to learn and become  a software developer. 
@@ -52,19 +52,24 @@ const About = () => {
                                 <h3>
                                 skills: 
                                 </h3>
-                                <p> Javascript</p>
-                                <p> Reactjs</p>
-                                <p> ExpressJs</p>
-                                <p> NodeJs</p>
-                                <p> MongoDB</p>        
-                                <p> Firebase</p>        
-                                <p>Wordpress</p>        
+                                <ul> <li>Javascript</li>
+                                    <li> Reactjs</li>
+                                    <li> ExpressJs</li>
+                                    <li> NodeJs</li>
+                                    <li> MongoDB</li>        
+                                    <li> Firebase</li>        
+                                    <li>Wordpress</li>
+                                </ul>        
                             </div>
                             {/*  the initial idea is just providing software services and designing websites
                             websites maintenance
                             wordpress services
                             eccommerce services
                             bl  og and all other types of websites */}
+                     </div>
+                     <div className='portfolio_container'>
+                         <h2> PROJECTS</h2>
+                         
                      </div>
               </div>
       </div>

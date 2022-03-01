@@ -6,7 +6,7 @@ margin:0;
     height:auto;
     margin-right:100px;
     margin-left:100px;
-    margin-top:5rem;
+    margin-top:3.1rem;
 }
 .about_wrapper{
     /* background:#f2f4f6; */
@@ -21,15 +21,16 @@ margin:0;
     text-align:center;
     padding:20px;
 }
-.about_wrapper p{ padding:10px;
-                  font-size:20px;}
+.about_wrapper p{ 
+    /* padding:10px;  */
+     font-size:20px;}
 .headerProf{
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center;
     padding-bottom:30px;
-    width:100%;
+    width:120%;
     background: #313030;
     height:auto;
 }
@@ -60,5 +61,13 @@ margin:0;
 
 .skill_container{
     display:flex;
+    justify-content:space-between;
+    margin-top:20px;
 
+}
+.skill_about{
+    width:55%;
+}
+.skill_wrapper{
+    width:30%;
 }
