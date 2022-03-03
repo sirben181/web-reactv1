@@ -77,7 +77,8 @@ const App = () => {
                  <Navbar />
                  <Routes >
                     <Route path='/' element={<Home />}/>
-                    <Route path="/services" element={<Service 
+                    <Route path="/services" element={
+                    <Service 
                     paginate={paginate}
                     posts={currentPosts}
                     postsPerPage={postsPerPage}

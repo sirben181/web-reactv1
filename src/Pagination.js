@@ -9,7 +9,7 @@ const Pagination = ({totalPosts,postsPerPage,paginate}) => {
     <div className='pages'>
         <ul>
           {pageNumber.map(number=>(
-          <li key={number} onClick={paginate}>
+          <li key={number} onClick={()=>paginate(number)}>
              <a href='!#'>{number}</a>
           </li>))}   
         </ul>
