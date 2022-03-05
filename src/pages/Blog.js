@@ -11,6 +11,14 @@ const Blog = () => {
         }else{return}
          
     }
+    const previousApp=()=>{
+        console.log('click')
+    }
+    previousApp()
+    const nextApp=()=>{
+        console.log('clicked next')
+    }
+    nextApp()
     
     return (
         <div className="blog_container">
@@ -63,8 +71,8 @@ const Blog = () => {
             
         </div>
         <div className='footer-btns'> 
-            <button className="btn btn-previous">previous</button>
-            <button className="btn btn-next">Next</button>
+            <button className="btn btn-previous" onClick={previousApp}>previous</button>
+            <button className="btn btn-next" onClick={nextApp}>Next</button>
         </div> 
     </div>
     )
